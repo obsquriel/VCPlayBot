@@ -30,18 +30,15 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "📞ADMIN", url="https://t.me/TONY344"
                     )
-
-
-
-                ],
-                [
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
-                    ) 
                 ]
             ]
         )
     )
+
+
+
+
+
 
 @Client.on_message(
     filters.command("start")
